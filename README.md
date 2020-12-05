@@ -1,5 +1,5 @@
 # Spooki Sushi
-
+![logo](./public/imgs/SpookiSushi.png)
 ## Description
 A restaurant wait table functional program powered by Express.js
 ## Table of Contents
