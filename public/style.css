@@ -8,31 +8,45 @@
     padding: 0;
     
 }
-
+a:-webkit-any-link {
+    color: #002400;
+    cursor: pointer;
+}
 .panel-body {
     color: rgb(255, 212, 202);
     background-color: rgb(88,100,29)
 }
 
 .panel-title {
-    color: rgb(255,212,202);
-    background-color: rgb(88,100,29);
+    color: #171810;
+    background-color: #87aa72;
     padding: 10px;
+}
+.panel-default>.panel-heading {
+    border-color: #002400;
 }
 
 body {
     background-color:#002400; 
-    
-    background-image: url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    background-image: url('https://images.unsplash.com/photo-1583571560096-eb4462cdba30?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'); */
     background-repeat: no-repeat;
-    
+   
 }
 
 .jumbotron {
-    background-color: #58641d;
-    color: rgb(255,212,202);
-    
+    border-color: #58641d;
+    color: #df7748;
+    background-color: #e8e9eb;
+   
+    border-style: solid;
 }
+.container .jumbotron, .container-fluid .jumbotron {
+    border-color: #002400;
+    border-radius: 20px;
+    border-width: 10px;
+}
+
 
 .container {
     padding-top: 50px;
@@ -40,5 +54,6 @@ body {
 
 .btn {
     background-color: #df7748;
-    border-color: transparent
+    border-color: transparent;
+    padding-top: 15px;
 }
