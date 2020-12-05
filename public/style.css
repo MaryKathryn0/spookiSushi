@@ -1,52 +1,67 @@
 
 .panel {
-    background-color: rgb(88,100,29)
+    background-color: #87aa72;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #002400;
+    border-width: 4px;
 }
 .panel-heading {
-    color: rgb(255, 212, 202);
-    background-color: rgb(88,100,29);
     padding: 0;
-    
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #87aa72;
 }
-a:-webkit-any-link {
-    color: #002400;
-    cursor: pointer;
-}
+
 .panel-body {
     color: rgb(255, 212, 202);
-    background-color: rgb(88,100,29)
+    background-color: #016328;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 25px;
 }
 
 .panel-title {
-    color: #171810;
+    color: #002400; 
     background-color: #87aa72;
     padding: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
-.panel-default>.panel-heading {
-    border-color: #002400;
+.panel-default { 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    border-radius: 15px;
 }
 
 body {
     background-color:#002400; 
     background-image: url('https://images.unsplash.com/photo-1583571560096-eb4462cdba30?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
-    /* background-image: url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'); */
     background-repeat: no-repeat;
    
 }
 
 .jumbotron {
-    border-color: #58641d;
     color: #df7748;
     background-color: #e8e9eb;
-   
     border-style: solid;
 }
 .container .jumbotron, .container-fluid .jumbotron {
     border-color: #002400;
-    border-radius: 20px;
+    border-radius: 15px;
     border-width: 10px;
 }
-
+a:-webkit-any-link {
+    color: #002400;
+    cursor: pointer;
+}
 
 .container {
     padding-top: 50px;
@@ -55,5 +70,5 @@ body {
 .btn {
     background-color: #df7748;
     border-color: transparent;
-    padding-top: 15px;
+    padding-top: 20px;
 }
