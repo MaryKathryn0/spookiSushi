@@ -23,4 +23,4 @@ MIT
 
 #### Questions?
 If you have questions regarding this program:<br>
-Send me a message through GitHub: [![GitHub Link](https://github.com/MaryKathryn0)<br>
+Send me a message through GitHub: [GitHub Link](https://github.com/MaryKathryn0)<br>
