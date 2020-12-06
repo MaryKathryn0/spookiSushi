@@ -15,6 +15,7 @@ A restaurant wait table functional program powered by Express.js
 None, it is a live application on the web
 ## Usage
 To make a reservation you would click the "Make Reservation" button. If any tables are available you will be placed in the table immediately, otherwise you are placed in the wait list.
+![home page](./public/imgs/Home-Page.png)
 ### License
 MIT
 ### Collaborators
